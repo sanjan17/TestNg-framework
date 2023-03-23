@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ProjectNetbanking]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.ProjectNetbanking.listeners.MyListener"/>
+  </listeners>
+  <test thread-count="5" name="ProjectNeting Test(failed)" verbose="0">
+    <classes>
+      <class name="com.TestCases.SearchTest">
+        <methods>
+          <include name="verifySearchwithAnyProduct"/>
+          <include name="verifySearchWithInvalidProduct"/>
+          <include name="Setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.SearchTest -->
+    </classes>
+  </test> <!-- ProjectNeting Test(failed) -->
+</suite> <!-- Failed suite [ProjectNetbanking] -->

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-ProjectNetbanking" class="navigator-link">
+              <span class="suite-name border-failed">ProjectNetbanking</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-ProjectNetbanking" class="navigator-link ">
+                    <span>C:\Users\bhara\eclipse-workspace\com.ProjecNetbanking\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-ProjectNetbanking" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-ProjectNetbanking" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-ProjectNetbanking" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-ProjectNetbanking" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-ProjectNetbanking" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-ProjectNetbanking" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 1 failed,  1 skipped,  12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ProjectNetbanking" class="hide-methods failed suite-ProjectNetbanking"> (hide)</a> <!-- hide-methods failed suite-ProjectNetbanking -->
+                      <a href="#" panel-name="suite-ProjectNetbanking" class="show-methods failed suite-ProjectNetbanking"> (show)</a> <!-- show-methods failed suite-ProjectNetbanking -->
+                    </span>
+                    <div class="method-list-content failed suite-ProjectNetbanking">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Search" class="method navigator-link" hash-for-method="verifySearchWithInvalidProduct">verifySearchWithInvalidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ProjectNetbanking -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ProjectNetbanking" class="hide-methods skipped suite-ProjectNetbanking"> (hide)</a> <!-- hide-methods skipped suite-ProjectNetbanking -->
+                      <a href="#" panel-name="suite-ProjectNetbanking" class="show-methods skipped suite-ProjectNetbanking"> (show)</a> <!-- show-methods skipped suite-ProjectNetbanking -->
+                    </span>
+                    <div class="method-list-content skipped suite-ProjectNetbanking">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Search" class="method navigator-link" hash-for-method="verifySearchwithAnyProduct">verifySearchwithAnyProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ProjectNetbanking -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ProjectNetbanking" class="hide-methods passed suite-ProjectNetbanking"> (hide)</a> <!-- hide-methods passed suite-ProjectNetbanking -->
+                      <a href="#" panel-name="suite-ProjectNetbanking" class="show-methods passed suite-ProjectNetbanking"> (show)</a> <!-- show-methods passed suite-ProjectNetbanking -->
+                    </span>
+                    <div class="method-list-content passed suite-ProjectNetbanking">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Register" class="method navigator-link" hash-for-method="verifyExistingEmailAddress">verifyExistingEmailAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Login" class="method navigator-link" hash-for-method="verifyLoginWithInPasswordandValidEmail">verifyLoginWithInPasswordandValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Login" class="method navigator-link" hash-for-method="verifyLoginWithInValidCredtials">verifyLoginWithInValidCredtials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Login" class="method navigator-link" hash-for-method="verifyLoginWithInValidCrendtials">verifyLoginWithInValidCrendtials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Login" class="method navigator-link" hash-for-method="verifyLoginWithInValidEmailandValidPassword">verifyLoginWithInValidEmailandValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Login" class="method navigator-link" hash-for-method="verifyLoginWithValidCerdentials(sangitha77@gmail.com, 12345678)">verifyLoginWithValidCerdentials(sangitha77@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Login" class="method navigator-link" hash-for-method="verifyLoginWithValidCerdentials(sangitha99@gmail.com, 12345678)">verifyLoginWithValidCerdentials(sangitha99@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Login" class="method navigator-link" hash-for-method="verifyLoginWithValidCerdentials(sangitha88@gmail.com, 12345678)">verifyLoginWithValidCerdentials(sangitha88@gmail.com, 12345678)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Register" class="method navigator-link" hash-for-method="verifyRegisterProvidingAllField">verifyRegisterProvidingAllField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Register" class="method navigator-link" hash-for-method="verifyRegisterwithManditatoryField">verifyRegisterwithManditatoryField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Search" class="method navigator-link" hash-for-method="verifySearchWithValidProduct">verifySearchWithValidProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-ProjectNetbanking" title="com.TestCases.Register" class="method navigator-link" hash-for-method="verifyWithoutEntringMandetoryFileds">verifyWithoutEntringMandetoryFileds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ProjectNetbanking -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ProjectNetbanking" class="panel ProjectNetbanking">
+          <div class="suite-ProjectNetbanking-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.TestCases.Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithInvalidProduct">
+                  </a> <!-- verifySearchWithInvalidProduct -->
+                  <span class="method-name">verifySearchWithInvalidProduct</span>
+                  <div class="stack-trace">java.lang.AssertionError: warning message not shown expected [null] but found [There is no product that matches the search criteria.]
+	at com.TestCases.Search.verifySearchWithInvalidProduct(Search.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ProjectNetbanking-class-failed -->
+          <div class="suite-ProjectNetbanking-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.TestCases.Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchwithAnyProduct">
+                  </a> <!-- verifySearchwithAnyProduct -->
+                  <span class="method-name">verifySearchwithAnyProduct</span>
+                  <div class="stack-trace">java.lang.Throwable: Method com.TestCases.Search.verifySearchwithAnyProduct() on instance com.TestCases.Search@49438269 depends on not successfully finished methods 
+[com.TestCases.Search.verifySearchWithInvalidProduct() on instance com.TestCases.Search@49438269]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ProjectNetbanking-class-skipped -->
+          <div class="suite-ProjectNetbanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestCases.Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithValidProduct">
+                  </a> <!-- verifySearchWithValidProduct -->
+                  <span class="method-name">verifySearchWithValidProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ProjectNetbanking-class-passed -->
+          <div class="suite-ProjectNetbanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestCases.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInPasswordandValidEmail">
+                  </a> <!-- verifyLoginWithInPasswordandValidEmail -->
+                  <span class="method-name">verifyLoginWithInPasswordandValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInValidCredtials">
+                  </a> <!-- verifyLoginWithInValidCredtials -->
+                  <span class="method-name">verifyLoginWithInValidCredtials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInValidCrendtials">
+                  </a> <!-- verifyLoginWithInValidCrendtials -->
+                  <span class="method-name">verifyLoginWithInValidCrendtials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInValidEmailandValidPassword">
+                  </a> <!-- verifyLoginWithInValidEmailandValidPassword -->
+                  <span class="method-name">verifyLoginWithInValidEmailandValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCerdentials(sangitha77@gmail.com, 12345678)">
+                  </a> <!-- verifyLoginWithValidCerdentials(sangitha77@gmail.com, 12345678) -->
+                  <span class="method-name">verifyLoginWithValidCerdentials</span>
+                  <span class="parameters">(sangitha77@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCerdentials(sangitha99@gmail.com, 12345678)">
+                  </a> <!-- verifyLoginWithValidCerdentials(sangitha99@gmail.com, 12345678) -->
+                  <span class="method-name">verifyLoginWithValidCerdentials</span>
+                  <span class="parameters">(sangitha99@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCerdentials(sangitha88@gmail.com, 12345678)">
+                  </a> <!-- verifyLoginWithValidCerdentials(sangitha88@gmail.com, 12345678) -->
+                  <span class="method-name">verifyLoginWithValidCerdentials</span>
+                  <span class="parameters">(sangitha88@gmail.com,12345678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ProjectNetbanking-class-passed -->
+          <div class="suite-ProjectNetbanking-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.TestCases.Register</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyExistingEmailAddress">
+                  </a> <!-- verifyExistingEmailAddress -->
+                  <span class="method-name">verifyExistingEmailAddress</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterProvidingAllField">
+                  </a> <!-- verifyRegisterProvidingAllField -->
+                  <span class="method-name">verifyRegisterProvidingAllField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterwithManditatoryField">
+                  </a> <!-- verifyRegisterwithManditatoryField -->
+                  <span class="method-name">verifyRegisterwithManditatoryField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWithoutEntringMandetoryFileds">
+                  </a> <!-- verifyWithoutEntringMandetoryFileds -->
+                  <span class="method-name">verifyWithoutEntringMandetoryFileds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ProjectNetbanking-class-passed -->
+        </div> <!-- panel ProjectNetbanking -->
+        <div panel-name="test-xml-ProjectNetbanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\bhara\eclipse-workspace\com.ProjecNetbanking\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ProjectNetbanking&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.ProjectNetbanking.listeners.MyListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ProjectNeting Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.TestCases.Register&quot;/&gt;
+      &lt;class name=&quot;com.TestCases.Login&quot;/&gt;
+      &lt;class name=&quot;com.TestCases.Search&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ProjectNeting Test --&gt;
+&lt;/suite&gt; &lt;!-- ProjectNetbanking --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ProjectNetbanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ProjectNetbanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ProjectNeting Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ProjectNetbanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ProjectNetbanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ProjectNetbanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ProjectNetbanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ProjectNetbanking');
+function tableData_ProjectNetbanking() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyRegisterwithManditatoryField')
+data.setCell(0, 2, 'com.TestCases.Register')
+data.setCell(0, 3, 1834);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifySearchWithValidProduct')
+data.setCell(1, 2, 'com.TestCases.Search')
+data.setCell(1, 3, 1669);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyRegisterProvidingAllField')
+data.setCell(2, 2, 'com.TestCases.Register')
+data.setCell(2, 3, 1620);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLoginWithValidCerdentials')
+data.setCell(3, 2, 'com.TestCases.Login')
+data.setCell(3, 3, 1423);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyExistingEmailAddress')
+data.setCell(4, 2, 'com.TestCases.Register')
+data.setCell(4, 3, 1419);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyWithoutEntringMandetoryFileds')
+data.setCell(5, 2, 'com.TestCases.Register')
+data.setCell(5, 3, 1061);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginWithValidCerdentials')
+data.setCell(6, 2, 'com.TestCases.Login')
+data.setCell(6, 3, 839);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLoginWithValidCerdentials')
+data.setCell(7, 2, 'com.TestCases.Login')
+data.setCell(7, 3, 799);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLoginWithInValidCrendtials')
+data.setCell(8, 2, 'com.TestCases.Login')
+data.setCell(8, 3, 796);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyLoginWithInPasswordandValidEmail')
+data.setCell(9, 2, 'com.TestCases.Login')
+data.setCell(9, 3, 732);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLoginWithInValidEmailandValidPassword')
+data.setCell(10, 2, 'com.TestCases.Login')
+data.setCell(10, 3, 710);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifySearchWithInvalidProduct')
+data.setCell(11, 2, 'com.TestCases.Search')
+data.setCell(11, 3, 529);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLoginWithInValidCredtials')
+data.setCell(12, 2, 'com.TestCases.Login')
+data.setCell(12, 3, 522);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifySearchwithAnyProduct')
+data.setCell(13, 2, 'com.TestCases.Search')
+data.setCell(13, 3, 0);
+window.suiteTableData['ProjectNetbanking']= { tableData: data, tableDiv: 'times-div-ProjectNetbanking'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-ProjectNetbanking">
+              </div> <!-- times-div-ProjectNetbanking -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ProjectNetbanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ProjectNetbanking</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ProjectNetbanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ProjectNetbanking" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestCases.Register</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterwithManditatoryField</span>
+                <span class="method-start">21912 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterProvidingAllField</span>
+                <span class="method-start">35551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37174 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyExistingEmailAddress</span>
+                <span class="method-start">52015 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">53442 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54162 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWithoutEntringMandetoryFileds</span>
+                <span class="method-start">70402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71463 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestCases.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCerdentials(sangitha88@gmail.com, 12345678)</span>
+                <span class="method-start">82663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83462 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">84022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCerdentials(sangitha77@gmail.com, 12345678)</span>
+                <span class="method-start">93009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94441 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">95019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCerdentials(sangitha99@gmail.com, 12345678)</span>
+                <span class="method-start">104551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">106125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInValidCrendtials</span>
+                <span class="method-start">117716 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">118517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">119329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInValidEmailandValidPassword</span>
+                <span class="method-start">131832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">132544 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">133273 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInPasswordandValidEmail</span>
+                <span class="method-start">143404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">144136 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">144723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInValidCredtials</span>
+                <span class="method-start">153274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">153798 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.TestCases.Search</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">154508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithValidProduct</span>
+                <span class="method-start">164503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">166182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">166924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySearchWithInvalidProduct</span>
+                <span class="method-start">175949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">176691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifySearchwithAnyProduct</span>
+                <span class="method-start">177213 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
